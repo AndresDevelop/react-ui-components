@@ -1,0 +1,30 @@
+{
+  "name": "@andresdevelop/react-components-github",
+  "version": "2.1.0",
+  "description": "React UI components",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresDevelop/react-ui-components.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "react",
+    "styleguidist",
+    "material-u",
+    "github",
+    "packages",
+    "js"
+  ],
+  "author": "Yebrail Andres Pacheco <yebrail_andrs@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresDevelop/react-ui-components/issues"
+  },
+  "homepage": "https://github.com/AndresDevelop/react-ui-components#readme"
+}
