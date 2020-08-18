@@ -18,8 +18,8 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
       - run: npm install
-      -run : git config user.name Yebrail Andres
-      -run : git config user.email yebrail_andrs@hotmail.com
+      - run: git config user.name Yebrail Andres
+      - run: git config user.email yebrail_andrs@hotmail.com
       - run: npm version major
       - run: npm ci
       - run: npm publish
