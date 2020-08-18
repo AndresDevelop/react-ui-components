@@ -1,6 +1,6 @@
 {
   "name": "@andresdevelop/react-components-github",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "React UI components",
   "main": "dist/index.js",
   "scripts": {
