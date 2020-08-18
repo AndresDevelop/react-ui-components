@@ -19,6 +19,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm install
       - run: npm ci
+      - run: npm version major
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.EXAMPLE_AUTH}}
